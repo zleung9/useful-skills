@@ -1,0 +1,785 @@
+{
+  "lastRun": "2026-09-01",
+  "dois": {
+    "10.1038/d41586-026-02681-4": {
+      "firstSeen": "2026-08-27",
+      "title": "Highest-ever ocean temperatures recorded as El Niño intensifies",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02514-4": {
+      "firstSeen": "2026-08-27",
+      "title": "Using nuclear waste to power space missions",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10949-y": {
+      "firstSeen": "2026-08-27",
+      "title": "Automated prototyping of genetic codes",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10932-7": {
+      "firstSeen": "2026-08-27",
+      "title": "Insights into longevity and virus-driven adaptation from Myotis bat genomes",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10753-8": {
+      "firstSeen": "2026-08-27",
+      "title": "Systems vaccinology and the architecture of human immunity",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10975-w": {
+      "firstSeen": "2026-08-27",
+      "title": "Ultrafast and reference-free sequence discovery in single-cell data",
+      "relevant": true
+    },
+    "10.1038/s41586-026-10577-6": {
+      "firstSeen": "2026-08-27",
+      "title": "Cell-type-specific eQTLs underlie the genetic architecture of complex traits",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10961-2": {
+      "firstSeen": "2026-08-27",
+      "title": "Amphibious stem-insect sheds light on colonization of land",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10902-z": {
+      "firstSeen": "2026-08-27",
+      "title": "3D bulk-resolved g -wave altermagnetic order parameter in CrSb",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10893-x": {
+      "firstSeen": "2026-08-27",
+      "title": "Tidal tomography reveals a thermal anomaly beneath Mars’s crustal dichotomy",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10980-z": {
+      "firstSeen": "2026-08-27",
+      "title": "Synergistic degradation of fucoidans in the ocean",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10971-0": {
+      "firstSeen": "2026-08-27",
+      "title": "A binding-to-release strategy for targeted anticancer drug delivery",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10936-3": {
+      "firstSeen": "2026-08-27",
+      "title": "Critical zone processes limit alkalinity export from natural basaltic systems",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10964-z": {
+      "firstSeen": "2026-08-27",
+      "title": "Aberrant excitatory neuronal ERBB4 promotes Alzheimer’s disease pathology",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10988-5": {
+      "firstSeen": "2026-08-27",
+      "title": "Video reconstruction of variable VLBI observations with neural fields",
+      "relevant": true
+    },
+    "10.1038/s41586-026-10967-w": {
+      "firstSeen": "2026-08-27",
+      "title": "Endocannabinoids facilitate reward engagement through retrograde gain control",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10927-4": {
+      "firstSeen": "2026-08-27",
+      "title": "Primate-specific regulation of the human glycosphingolipid gatekeeper UGCG",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10946-1": {
+      "firstSeen": "2026-08-27",
+      "title": "Granule cells reorient cortical trajectories to separate contexts",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10901-0": {
+      "firstSeen": "2026-08-27",
+      "title": "Long-read sequencing reveals pre-meiotic gene conversion in sperm",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10915-8": {
+      "firstSeen": "2026-08-27",
+      "title": "Infrared absorption spectroscopy of a single polyatomic molecular ion",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10941-6": {
+      "firstSeen": "2026-08-27",
+      "title": "Spontaneously charged water drops induce corrosion",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02522-4": {
+      "firstSeen": "2026-08-27",
+      "title": "Plasma-jet movie is astronomy’s summer blockbuster",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02510-8": {
+      "firstSeen": "2026-08-27",
+      "title": "Can nuclear reactors hit the road?",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02482-9": {
+      "firstSeen": "2026-08-27",
+      "title": "A practical recycling strategy for making thiophosphate molecules with enzymes",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02506-4": {
+      "firstSeen": "2026-08-27",
+      "title": "Smaller reactors bring nuclear power closer to fulfilling its promise",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02676-1": {
+      "firstSeen": "2026-08-27",
+      "title": "Dolly Parton dies aged 80 – researchers celebrate her contributions to science",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02513-5": {
+      "firstSeen": "2026-08-27",
+      "title": "The 46 companies scrambling to commercialize fusion for energy",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02664-5": {
+      "firstSeen": "2026-08-27",
+      "title": "This pulsating muscle graft mimics benefits of exercise",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02480-x": {
+      "firstSeen": "2026-08-27",
+      "title": "Savannah grass growth in dry conditions is boosted by increased CO 2 levels",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02509-1": {
+      "firstSeen": "2026-08-27",
+      "title": "Are pro-nuclear politics a threat to public safety?",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02568-4": {
+      "firstSeen": "2026-08-27",
+      "title": "South Africa’s ‘registration law’ for scientists could be a template for the world — if the nation gets it right",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02469-6": {
+      "firstSeen": "2026-08-27",
+      "title": "Vaporization trick enables ‘tandem’ solar cells to be made at lower temperatures",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02570-w": {
+      "firstSeen": "2026-08-27",
+      "title": "The baffling science of SSRIs: how do they really work?",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02511-7": {
+      "firstSeen": "2026-08-27",
+      "title": "A raft of start-up firms is betting on nuclear fusion",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02412-9": {
+      "firstSeen": "2026-08-27",
+      "title": "Like coffee and ice cream: an interview with Sam and Eli Morten",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02507-3": {
+      "firstSeen": "2026-08-27",
+      "title": "The push to clear nuclear power’s waste-disposal hurdle",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02505-5": {
+      "firstSeen": "2026-08-27",
+      "title": "Harnessing nuclear power for a clean-energy future",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02378-8": {
+      "firstSeen": "2026-08-27",
+      "title": "Evolutionary mystery revealed by structures of a key enzyme in the synthesis of glycolipids",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02512-6": {
+      "firstSeen": "2026-08-27",
+      "title": "Five highlights from nuclear-power research",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02663-6": {
+      "firstSeen": "2026-08-27",
+      "title": "Does the shingles vaccine cut heart disease risk? Mounting evidence suggests a link",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02508-2": {
+      "firstSeen": "2026-08-27",
+      "title": "The best-managed industrial waste in history",
+      "relevant": false
+    },
+    "10.1038/s41586-026-11017-1": {
+      "firstSeen": "2026-08-27",
+      "title": "Addendum: Sea level much higher than assumed in most coastal hazard assessments",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02633-y": {
+      "firstSeen": "2026-08-27",
+      "title": "Amend copyright licences to halt AI misuse and reassert human control",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02631-0": {
+      "firstSeen": "2026-08-27",
+      "title": "The future of peer review requires AI support, not AI bans",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02634-x": {
+      "firstSeen": "2026-08-27",
+      "title": "Protecting education in the middle of war zones",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02382-y": {
+      "firstSeen": "2026-08-27",
+      "title": "Ancient surveying instrument found in Egypt",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02632-z": {
+      "firstSeen": "2026-08-27",
+      "title": "Assessing students in the AI era",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02611-4": {
+      "firstSeen": "2026-08-27",
+      "title": "Asthma in some boys stops at puberty: mouse results hint at why",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02567-5": {
+      "firstSeen": "2026-08-27",
+      "title": "How to manage AI risks while reaping the benefits",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02661-8": {
+      "firstSeen": "2026-08-27",
+      "title": "The brain struggles to make new neurons in people with depression",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02115-1": {
+      "firstSeen": "2026-08-27",
+      "title": "A guide to securing your first research fellowship: what reviewers are looking for",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02094-3": {
+      "firstSeen": "2026-08-27",
+      "title": "How one researcher captured a vanished world of UK government science",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02622-1": {
+      "firstSeen": "2026-08-27",
+      "title": "China is changing the shape of global health. The terms are still up for negotiation",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02573-7": {
+      "firstSeen": "2026-08-27",
+      "title": "How tech-enhanced sleep could improve rest but erode privacy",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02569-3": {
+      "firstSeen": "2026-08-27",
+      "title": "AI-detection tools have made huge leaps forward — how good are they?",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02550-0": {
+      "firstSeen": "2026-08-27",
+      "title": "These rodent OnlyFans stars are helping to fund scientific research",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02635-w": {
+      "firstSeen": "2026-08-27",
+      "title": "More than 18,000 questionable images found in antibody catalogues of 15 companies",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02641-y": {
+      "firstSeen": "2026-08-27",
+      "title": "The exoskeletons are coming (to a store near you)",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02572-8": {
+      "firstSeen": "2026-08-27",
+      "title": "Frontier-technology markets are too narrow — here’s how to widen them",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02665-4": {
+      "firstSeen": "2026-08-27",
+      "title": "Daily briefing: How ‘thunderquakes’ probe underground geology",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02620-3": {
+      "firstSeen": "2026-08-27",
+      "title": "Billion-dollar machine aims to set a fusion-energy record — and study nuclear weapons",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02616-z": {
+      "firstSeen": "2026-08-27",
+      "title": "Patient’s own mitochondria injected into eyes in attempt to restore vision",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02571-9": {
+      "firstSeen": "2026-08-27",
+      "title": "Can AI ever be conscious? The question stems from a misconception",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02626-x": {
+      "firstSeen": "2026-08-27",
+      "title": "Briefing Chat: New narcolepsy drug could unlock host of novel brain therapies",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02596-0": {
+      "firstSeen": "2026-08-27",
+      "title": "Earth-shaking thunder probes underground geology",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02638-7": {
+      "firstSeen": "2026-08-27",
+      "title": "Daily briefing: Personalized mRNA vaccine shows promise for cancer",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02566-6": {
+      "firstSeen": "2026-08-27",
+      "title": "Why we must stop talking about artificial general intelligence — and instead build ‘pro-worker’ AI",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02352-4": {
+      "firstSeen": "2026-08-27",
+      "title": "Sleuth identifies dozens of studies that used the wrong antibody",
+      "relevant": false
+    },
+    "10.1038/s41586-026-11043-z": {
+      "firstSeen": "2026-08-27",
+      "title": "Dialkyl ether synthesis through heteroatom homolytic substitution",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02555-9": {
+      "firstSeen": "2026-08-27",
+      "title": "Hidden volcanoes hint at Moon’s turbulent past",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02553-x": {
+      "firstSeen": "2026-08-27",
+      "title": "To shield the fetus, link a protein to these drugs",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02556-8": {
+      "firstSeen": "2026-08-27",
+      "title": "Astronaut vest cuts radiation exposure in half",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02586-2": {
+      "firstSeen": "2026-08-27",
+      "title": "These trees are making air quality in cities worse",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02574-6": {
+      "firstSeen": "2026-08-27",
+      "title": "Exclusive: NSF set to issue lowest number of new grants in four decades",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02612-3": {
+      "firstSeen": "2026-08-27",
+      "title": "Moderna cancer vaccine stops melanoma returning: what’s next for personalized treatments?",
+      "relevant": false
+    },
+    "10.1038/s42256-026-01294-w": {
+      "firstSeen": "2026-08-27",
+      "title": "The epistemic debt of generative AI",
+      "relevant": true
+    },
+    "10.1038/s42256-026-01296-8": {
+      "firstSeen": "2026-08-27",
+      "title": "Life-inspired interoceptive artificial intelligence for autonomous and adaptive agents",
+      "relevant": true
+    },
+    "10.1038/s42256-026-01286-w": {
+      "firstSeen": "2026-08-27",
+      "title": "A knowledge-driven framework for predicting single-cell responses for unprofiled drugs",
+      "relevant": true
+    },
+    "10.1038/s42256-026-01290-0": {
+      "firstSeen": "2026-08-27",
+      "title": "Harnessing implicit neural representations for scientific data compression",
+      "relevant": true
+    },
+    "10.1038/s42256-026-01287-9": {
+      "firstSeen": "2026-08-27",
+      "title": "Multi-resolution enhancement for full-spectrum neural representations",
+      "relevant": true
+    },
+    "10.1038/s42256-026-01297-7": {
+      "firstSeen": "2026-08-27",
+      "title": "A roadmap for end-to-end task-agnostic exoskeleton control",
+      "relevant": true
+    },
+    "10.1038/s42256-026-01291-z": {
+      "firstSeen": "2026-08-27",
+      "title": "Quantitative and interface-aware prediction of peptide–protein interactions by VITAL",
+      "relevant": true
+    },
+    "10.1038/s42256-026-01301-0": {
+      "firstSeen": "2026-08-27",
+      "title": "Agentic AI and cybersecurity, the story so far",
+      "relevant": true
+    },
+    "10.1038/s41467-026-75733-y": {
+      "firstSeen": "2026-08-27",
+      "title": "Disitamab vedotin for HER2-positive breast cancer with liver metastases: phase 3 results from the RC48-C006 phase 2/3 trial",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77120-z": {
+      "firstSeen": "2026-08-27",
+      "title": "Tough, thermal insulating and scalable puff pastry-inspired architected cementitious material via simple rolling-folding",
+      "relevant": false
+    },
+    "10.1038/s41467-026-76859-9": {
+      "firstSeen": "2026-08-27",
+      "title": "Bacterial ribonucleoprotein bodies maintain an acidic pH environment as a mechanism of enzyme regulation",
+      "relevant": false
+    },
+    "10.1038/s41467-026-76645-7": {
+      "firstSeen": "2026-08-27",
+      "title": "Publisher Correction: Impact of extreme precipitation events on facility-based births in 21 sub-Saharan African countries",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77242-4": {
+      "firstSeen": "2026-08-27",
+      "title": "Socio-economic value of data-driven eruption forecasts to balance false alarms against catastrophic loss",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77179-8": {
+      "firstSeen": "2026-08-27",
+      "title": "Author Correction: Stringent selection drives convergence toward omicron-like SARS-CoV-2 receptor-binding motifs",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77286-6": {
+      "firstSeen": "2026-08-27",
+      "title": "Observation of Antichiral Hinge States in a Three-dimensional Gyromagnetic Photonic Crystal",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77244-2": {
+      "firstSeen": "2026-08-27",
+      "title": "Mechanical flexibility and pressure-activated emission in room-temperature phosphorescent organic crystals",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03238-z": {
+      "firstSeen": "2026-08-27",
+      "title": "Author Correction: OrthoFinder: improved phylogenetic orthology inference with enhanced accuracy and scalability",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03193-9": {
+      "firstSeen": "2026-08-27",
+      "title": "Benchmark pitfalls expose need for expert-guided spatial clustering",
+      "relevant": true
+    },
+    "10.1038/s41592-026-03194-8": {
+      "firstSeen": "2026-08-27",
+      "title": "Beyond benchmarking: an expert-guided consensus approach to spatially aware clustering",
+      "relevant": true
+    },
+    "10.1038/s41592-026-03184-w": {
+      "firstSeen": "2026-08-27",
+      "title": "Overcoming air–water interface-induced artifacts in cryo-EM with protein nanocrates",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03208-5": {
+      "firstSeen": "2026-08-27",
+      "title": "The physics of sculpting a living creature",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03201-y": {
+      "firstSeen": "2026-08-27",
+      "title": "Amplifying multiplex spatial profiling with tyramide oligonucleotides",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03204-9": {
+      "firstSeen": "2026-08-27",
+      "title": "Trainee advice for a future that seems uncertain",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03210-x": {
+      "firstSeen": "2026-08-27",
+      "title": "Disruption of the research software landscape through AI software generation",
+      "relevant": true
+    },
+    "10.1038/s41467-026-77202-y": {
+      "firstSeen": "2026-08-27",
+      "title": "Quantum nonlinearity for optical neural computing",
+      "relevant": true
+    },
+    "10.1038/s41467-026-77180-1": {
+      "firstSeen": "2026-08-27",
+      "title": "Author Correction: Omics-driven plant breeding through phenomics-enviromics crosstalk",
+      "relevant": false
+    },
+    "10.1038/s41467-026-76072-8": {
+      "firstSeen": "2026-08-27",
+      "title": "3D printed designer color routers with low refractive index for low-light imaging",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77150-7": {
+      "firstSeen": "2026-08-27",
+      "title": "Confined shear-induced structure discretization enables re-entrant super-repellent metals",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77229-1": {
+      "firstSeen": "2026-08-27",
+      "title": "Sustained formation movement and destruction of coacervates in a waste-free system driven by electricity",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77321-6": {
+      "firstSeen": "2026-08-27",
+      "title": "Author Correction: Ribosomal modifications are associated with mesenchymal fate selection in the neural crest lineage",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03181-z": {
+      "firstSeen": "2026-08-27",
+      "title": "A multimodal, all-optical platform for linking cell identity to metabolic function in intact tissues",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03180-0": {
+      "firstSeen": "2026-08-27",
+      "title": "All-optical multimodal mapping of single-cell-type-specific metabolic activities via REDCAT",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02727-7": {
+      "firstSeen": "2026-08-30",
+      "title": "Lift-off! NASA launches Roman Space Telescope to tackle dark-energy mysteries",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02732-w": {
+      "firstSeen": "2026-08-30",
+      "title": "Briefing Chat: How Dolly Parton left her mark on science",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02725-9": {
+      "firstSeen": "2026-08-30",
+      "title": "Mysteries of the deep and AI friendship: Books in brief",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02680-5": {
+      "firstSeen": "2026-08-30",
+      "title": "The Moderna cancer vaccine offers hope — now we must speed up personalized therapies",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02688-x": {
+      "firstSeen": "2026-08-30",
+      "title": "Heisuke Hironaka obituary: mathematician who smoothed out geometry’s complexities",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02733-9": {
+      "firstSeen": "2026-08-30",
+      "title": "Will Meta’s deal make social media safe for kids? Researchers are dubious",
+      "relevant": false
+    },
+    "10.1038/d41586-026-01913-x": {
+      "firstSeen": "2026-08-30",
+      "title": "What employers are looking for in the age of AI — and four ways to provide it",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02628-9": {
+      "firstSeen": "2026-08-30",
+      "title": "A solution to the mystery of the missing neutrinos",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02629-8": {
+      "firstSeen": "2026-08-30",
+      "title": "Animal-microbe partnerships date back to the dawn of complex life",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02713-z": {
+      "firstSeen": "2026-08-30",
+      "title": "‘Robot Olympics’ reveal humanoids’ rapid progress — and flaws",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02716-w": {
+      "firstSeen": "2026-08-30",
+      "title": "Glacier collapse caused Nepal’s deadly flash flood — a sign of things to come?",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02679-y": {
+      "firstSeen": "2026-08-30",
+      "title": "Women face bans on research underground — here’s how to modernize the system",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02662-7": {
+      "firstSeen": "2026-08-30",
+      "title": "The Roman telescope is about to take planet-hunting to the next level",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02717-9": {
+      "firstSeen": "2026-08-30",
+      "title": "Why are El Niños getting stronger? 1,000-year-coral record points to climate change",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02719-7": {
+      "firstSeen": "2026-08-30",
+      "title": "Daily briefing: Celebrating Dolly Parton’s contributions to science",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02673-4": {
+      "firstSeen": "2026-08-30",
+      "title": "Daily briefing: Billion-dollar machine aims to set a fusion-energy record",
+      "relevant": false
+    },
+    "10.1038/s42256-026-01299-5": {
+      "firstSeen": "2026-08-30",
+      "title": "Enhancing reproducibility in hybrid Earth system models",
+      "relevant": true
+    },
+    "10.1038/s42256-026-01283-z": {
+      "firstSeen": "2026-08-30",
+      "title": "Large language models as uncertainty-calibrated optimizers for experimental discovery",
+      "relevant": true
+    },
+    "10.1038/s41467-026-76503-6": {
+      "firstSeen": "2026-08-30",
+      "title": "What one sees depends on how far the eye has moved",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77193-w": {
+      "firstSeen": "2026-08-30",
+      "title": "Strong and crack-tolerant elastomers via geometrically confined H-bonding semicarbazides",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77205-9": {
+      "firstSeen": "2026-08-30",
+      "title": "Many-body interactions resolve halide distribution at the air/water interface",
+      "relevant": false
+    },
+    "10.1038/s41467-026-76944-z": {
+      "firstSeen": "2026-08-30",
+      "title": "Hydrogen Bond-Enabled Carbon Dot-Based Network for Efficient Inverted Organic Solar Cells with Prolonged Photoelectrical-Mechanical-Moist Stability",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77331-4": {
+      "firstSeen": "2026-08-30",
+      "title": "Persistent chromatin alterations and gene expression reprogramming follow widespread DNA damage in glioblastoma",
+      "relevant": false
+    },
+    "10.1038/s41467-026-76949-8": {
+      "firstSeen": "2026-08-30",
+      "title": "Hybrid exosomal nanomotors convert pathological ROS into transport-driving cues to enhance cartilage accumulation in osteoarthritis",
+      "relevant": false
+    },
+    "10.1038/s41467-026-75221-3": {
+      "firstSeen": "2026-08-30",
+      "title": "Cascade electrosynthesis of glycolic acid from ethylene and oxygen with an energy efficiency of 62.9%",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77308-3": {
+      "firstSeen": "2026-08-30",
+      "title": "Unraveling single-molecule reactions via multiplexed in-situ DNA sequencing",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03214-7": {
+      "firstSeen": "2026-08-30",
+      "title": "A FAIR road to a bioAFM databank",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02684-1": {
+      "firstSeen": "2026-08-31",
+      "title": "AI models are being used to track zoonotic diseases. Will they prevent the next pandemic?",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02642-x": {
+      "firstSeen": "2026-09-01",
+      "title": "Scale of snakebites estimated globally",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02543-z": {
+      "firstSeen": "2026-09-01",
+      "title": "What’s your lab’s archetype? The answer could inform how you use AI",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02685-0": {
+      "firstSeen": "2026-09-01",
+      "title": "Order from disorder: do we need a new law of physics?",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02669-0": {
+      "firstSeen": "2026-09-01",
+      "title": "The leap second is dead. Long live the leap hour?",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02687-y": {
+      "firstSeen": "2026-09-01",
+      "title": "Why are rich people so pessimistic? What the numbers say",
+      "relevant": false
+    },
+    "10.1038/s41467-026-75533-4": {
+      "firstSeen": "2026-09-01",
+      "title": "Unassisted bipolar photoelectrochemical synthesis of H 2 O 2",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77371-w": {
+      "firstSeen": "2026-09-01",
+      "title": "Grain boundary segregation of ceramic aerogels for reliable thermal insulation at extreme conditions",
+      "relevant": false
+    },
+    "10.1038/s41467-026-76972-9": {
+      "firstSeen": "2026-09-01",
+      "title": "IFN-γ-driven iNOS induction in macrophages mediates CAR T cell resistance in B cell lymphoma",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77277-7": {
+      "firstSeen": "2026-09-01",
+      "title": "Multidisciplinary intervention in frail elderly patients with cardiovascular diseases: a multicentre, single-blinded, randomised controlled trial",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77192-x": {
+      "firstSeen": "2026-09-01",
+      "title": "RBP-Driven RNA sorting and local translation establish the molecular identities of individual sensory axons",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77251-3": {
+      "firstSeen": "2026-09-01",
+      "title": "Mutation-agnostic base editing of the progerin farnesylation site rescues Hutchinson-Gilford progeria syndrome phenotypes in neuromuscular organoids",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77216-6": {
+      "firstSeen": "2026-09-01",
+      "title": "Dietary protein governs the role of insulin signaling in the postprandial regulation of hepatic mTORC1",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77162-3": {
+      "firstSeen": "2026-09-01",
+      "title": "OsIDD7 integrates signaling networks for arbuscular mycorrhizal symbiosis",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03195-7": {
+      "firstSeen": "2026-09-01",
+      "title": "Polarized detection sharpens optical live-cell fluorescence imaging",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03226-3": {
+      "firstSeen": "2026-09-01",
+      "title": "Confounders of lncRNA screens: sources, consequences and possible solutions",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03196-6": {
+      "firstSeen": "2026-09-01",
+      "title": "SPIFFI enables single-shot super-resolution and multidimensional imaging",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03206-7": {
+      "firstSeen": "2026-09-01",
+      "title": "Go figure: transparency in neuroscience images preserves context and clarifies interpretation",
+      "relevant": false
+    },
+    "10.1038/s41467-026-76234-8": {
+      "firstSeen": "2026-09-01",
+      "title": "The changing surface of the world’s roads",
+      "relevant": true
+    },
+    "10.1038/s41467-026-77276-8": {
+      "firstSeen": "2026-09-01",
+      "title": "Quinone-heme π-π interactions bridge the biotic-abiotic interface for enhanced methanogenesis",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77335-0": {
+      "firstSeen": "2026-09-01",
+      "title": "The Fanconi anemia pathway restrains MLL-rearranged leukemogenesis through suppressing non-homologous end joining-mediated genomic instability",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77201-z": {
+      "firstSeen": "2026-09-01",
+      "title": "Topological valley quasi-bound states in the continuum for radiatively accessible robust transport",
+      "relevant": false
+    }
+  }
+}

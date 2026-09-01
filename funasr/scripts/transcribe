@@ -1,0 +1,20 @@
+#!/bin/bash
+# FunASR transcription CLI wrapper
+# Activates venv (if exists) and runs the Python transcriber
+
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+VENV_DIR="${VIRTUAL_ENV:-${HOME}/.agents/skills/funasr/venv}"
+
+# Use existing venv if activated, otherwise check for one
+if [[ -z "$VIRTUAL_ENV" ]]; then
+    if [[ -d "$VENV_DIR" ]]; then
+        source "$VENV_DIR/bin/activate"
+    elif [[ -d "${HOME}/.agents/skills/funasr/.venv" ]]; then
+        source "${HOME}/.agents/skills/funasr/.venv/bin/activate"
+    fi
+fi
+
+# Run the transcriber
+exec python3 "${SCRIPT_DIR}/transcribe.py" "$@"

@@ -1,0 +1,184 @@
+---
+name: expense
+description: "报销管理系统：以 Trip（行程）为单位管理所有报销记录，支持机票、酒店、餐饮等各类发票附件，自动生成报销单。"
+version: 0.1
+author: 梁柱私人助理
+tags: ["报销", "expense", "发票", "行程报销", "财务管理"]
+platforms: ["macos", "linux"]
+metadata:
+  {
+    requires:
+      {
+        bins: ["python3"],
+      },
+  }
+---
+
+# 💰 报销管理系统
+
+## 文件结构
+
+```
+~/.openclaw/workspace-assistant/expense/
+├── expense.db              ← SQLite 数据库
+└── receipts/              ← 发票/收据附件（按 trip_id 分目录）
+    └── {trip_id}/
+        ├── 机票订单.pdf
+        ├── 酒店流水.pdf
+        └── 餐饮小票.jpg
+```
+
+## 数据模型（单表）
+
+所有记录（行程头和消费明细）存在同一张表，通过 `entry_type` 区分：
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `id` | INTEGER | 主键 |
+| `trip_id` | TEXT | 同一行程共享的 ID，格式 `YYYY-MM_slug` |
+| `entry_type` | TEXT | `trip`=行程头 / `expense`=消费记录 |
+| `title` | TEXT | 行程名或消费名称 |
+| `amount` | REAL | 金额（元），行程头为 0 |
+| `currency` | TEXT | 币种，默认 CNY |
+| `category` | TEXT | 消费分类 |
+| `expense_date` | TEXT | 消费日期（YYYY-MM-DD） |
+| `start_date` | TEXT | 行程开始日 |
+| `end_date` | TEXT | 行程结束日 |
+| `destination` | TEXT | 目的地 |
+| `reimbursement_status` | INTEGER | 0=未报, 1=已提交, 2=已打款, 3=已驳回 |
+| `receipt_path` | TEXT | 附件相对路径 |
+| `file_type` | TEXT | 原始文件名 |
+| `project` | TEXT | 所属项目 |
+| `payer` | TEXT | 付款人 |
+| `notes` | TEXT | 备注 |
+
+## 分类
+
+`机票` ✈️ | `火车` 🚄 | `酒店` 🏨 | `餐饮` 🍜 | `交通` 🚕 | `办公` 📎 | `通讯` 📱 | `其他` 📦
+
+## 命令格式
+
+```
+# 创建行程
++expense new "北京出差" --start 2026-04-15 --end 2026-04-18 --dest 北京 --project QM申请
+
+# 添加消费
++expense add "机票-北京往返" --trip-id 2026-04_beijing-trip --amount 1680 --category 机票 --date 2026-04-15 --receipt /path/to/ticket.pdf
+
+# 列出所有行程
++expense list
+
+# 按月查看行程
++expense list month:2026-04
+
+# 查看待报销行程
++expense list pending
+
+# 行程详情（含所有消费）
++expense detail 2026-04_beijing-trip
+
+# 更新报销状态
++expense status <expense_id> <0-3>
+
+# 生成报销单
++expense report 2026-04_beijing-trip
+
+# 删除记录
++expense delete <id>
+
+# 分类统计
++expense categories
+```
+
+## 消费记录命令格式（详细）
+
+```
+expense.py add "标题" --trip-id <trip_id> --amount <金额>
+    [--category 分类] [--date YYYY-MM-DD] [--currency CNY]
+    [--project 项目] [--payer 付款人]
+    [--receipt /path/to/file.pdf] [--notes 备注]
+```
+
+## trip_id 命名规则
+
+格式：`YYYY-MM_slug`
+- `YYYY-MM`：行程开始月份
+- `slug`：行程名的小写连字符版（前20字符）
+
+示例：`2026-04_beijing-trip`、`2026-06_shanghai-conf`
+
+## 报销状态
+
+| 值 | 状态 | 颜色 |
+|----|------|------|
+| 0 | ⬜ 未报销 | 白色 |
+| 1 | 🟡 已提交 | 黄色 |
+| 2 | 🟢 已打款 | 绿色 |
+| 3 | 🔴 已驳回 | 红色 |
+
+## 报销单生成
+
+`report` 命令输出完整 Markdown 报销单，包含：
+- 行程基本信息
+- 按分类汇总金额
+- 所有消费明细表格（含是否有附件标记）
+
+## 附件管理
+
+- 附件自动复制到 `receipts/{trip_id}/` 下
+- 文件名加时间戳前缀避免冲突（`HHMMSS_originalname.pdf`）
+- 返回相对路径存入数据库，便于迁移
+
+## 文件命名规范
+
+发票/凭证文件统一按以下格式重命名：
+
+```
+梁柱-{金额}元-{发票号码}.{后缀}
+```
+
+示例：`梁柱-1430.00元-26947000000061867540.pdf`、`梁柱-50.50-空白.pdf`（无发票号码时写
+
+---
+
+## 🖼️ 附件智能解析（Receipt OCR）
+
+收到图片或 PDF 票据时，自动尝试提取以下字段：
+
+| 可提取字段 | 来源 |
+|-----------|------|
+| `amount` | 金额大写/小写，通常在右下角 |
+| `expense_date` | 发票日期、开票日期 |
+| `category` | 商品类型、餐饮、住宿、交通等 |
+| `title` | 商户名、商品名 |
+| `payer` | 付款单位/个人 |
+| `destination` | 出发地/目的地（机票、酒店） |
+| `file_type` | 原始文件名 |
+
+**图片（.jpg/.png/.webp 等）**：使用 `vision_analyze` + OCR 提取文字
+**PDF**：使用 MinerU API（`mineru-pdf` skill）转换为 Markdown 后解析
+
+### 解析流程
+
+1. 用户发送图片/PDF 票据，并说明属于哪个 trip
+2. 提取文本，解析关键字段
+3. 自主判断每个字段的值（根据金额格式、关键词位置、语义等）
+4. 不确定的字段向你确认
+5. 调用 `add` 命令写入数据库，附件自动归档
+
+### 示例对话
+
+```
+你：这张机票想属于北京之行（trip_id: 2026-04_beijing）
+   [发送机票.pdf]
+
+我（解析后）：
+   从机票 PDF 中提取到以下信息，请确认：
+   - 标题：机票-北京→上海（东航 MU5101）
+   - 金额：¥1,680.00（已确认）
+   - 消费日期：2026-04-15 ✓
+   - 分类：机票 ✓
+   - 出发地/目的地：北京→上海 ✓
+   正在写入数据库...
+   ✅ 已添加（ID: 5）| 机票-北京→上海 | 1,680.00元 | 2026-04-15
+```

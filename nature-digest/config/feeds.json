@@ -1,0 +1,22 @@
+[
+  {
+    "name": "nature",
+    "journal": "Nature",
+    "url": "https://www.nature.com/nature.rss"
+  },
+  {
+    "name": "natmachintell",
+    "journal": "Nature Machine Intelligence",
+    "url": "https://www.nature.com/natmachintell.rss"
+  },
+  {
+    "name": "ncomms",
+    "journal": "Nature Communications",
+    "url": "https://www.nature.com/ncomms.rss"
+  },
+  {
+    "name": "nmeth",
+    "journal": "Nature Methods",
+    "url": "https://www.nature.com/nmeth.rss"
+  }
+]

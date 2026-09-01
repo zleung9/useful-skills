@@ -1,0 +1,10 @@
+{
+	"name": "web-search-chrome",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "General web search via Chrome + Google (CDP)",
+	"license": "MIT",
+	"dependencies": {
+		"puppeteer-core": "^23.11.1"
+	}
+}
