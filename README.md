@@ -1,6 +1,6 @@
 # Skills Repository
 
-A collection of **150 skills** organized into 13 categories.
+A collection of **137 skills** organized into 13 categories.
 
 Each skill lives in its own directory with a `SKILL.md` file (YAML frontmatter with `name` and `description`, plus the skill instructions).
 
@@ -9,9 +9,9 @@ Each skill lives in its own directory with a `SKILL.md` file (YAML frontmatter w
 - [Administration](#administration) (1)
 - [AI Development](#ai-development) (24)
 - [AI Infrastructure](#ai-infrastructure) (5)
-- [Communications](#communications) (9)
-- [Creative & Design](#creative--design) (28)
-- [Documents](#documents) (14)
+- [Communications](#communications) (4)
+- [Creative & Design](#creative--design) (23)
+- [Documents](#documents) (11)
 - [Education](#education) (1)
 - [GitHub](#github) (6)
 - [Obsidian](#obsidian) (6)
@@ -208,23 +208,11 @@ Refresh the Huawei server weekly report site at http://10.26.15.53:18788. Pulls 
 
 ## Communications
 
-### `telegram-proxy-upload-patch`
-
-_communications/telegram-proxy-upload-patch/_
-
-Re-apply the buffered-upload patch to the telegram MCP plugin's server.ts after a plugin upgrade overwrites the cache. Fixes "Network request for 'sendPhoto' failed! / ECONNRESET" that happens when the host is behind an HTTP proxy (Clash etc.) — caused by Bun fetch choking on streaming multipart bodies through the proxy. Use when the user reports that telegram reply with files (photos/documents) fails while text replies still work, or says "Telegram sendPhoto 又连不上了 / reply failed sendPhoto / 升级后图又发不出去了".
-
 ### `himalaya`
 
 _communications/himalaya/_
 
 Himalaya CLI: IMAP/SMTP email from terminal.
-
-### `teams-meeting-pipeline`
-
-_communications/teams-meeting-pipeline/_
-
-Operate the Teams meeting summary pipeline via Hermes CLI — summarize meetings, inspect pipeline status, replay jobs, manage Microsoft Graph subscriptions.
 
 ### `wechat-dialogue-to-article`
 
@@ -232,29 +220,11 @@ _communications/wechat-dialogue-to-article/_
 
 将讨论、访谈、聊天记录、会议对话或多轮问答整理成适合微信公众号发布的中文文章，提炼主线、重组素材并形成偏深度的洞察，同时保持真诚、克制、有观点和有个人声音的表达。用于用户要求把一段对话“整理成文章”“改成公众号”“写成长文”“提炼观点”，或希望从讨论记录中生成标题、导语和公众号正文时。
 
-### `xurl`
-
-_communications/xurl/_
-
-X/Twitter via xurl CLI: post, search, DM, media, v2 API.
-
-### `xitter`
-
-_communications/xitter/_
-
-Interact with X/Twitter via the x-cli terminal client using official X API credentials. Use for posting, reading timelines, searching tweets, liking, retweeting, bookmarks, mentions, and user lookups.
-
 ### `wechat-article-extractor`
 
 _communications/wechat-article-extractor/_
 
 从微信公众号文章链接中提取正文内容（文字+图片）并转换为 Markdown 文档。 **当以下情况时使用此 Skill**： (1) 用户发来微信公众号文章链接，要求"保存"、"下载"、"转成文档" (2) 用户发来微信文章链接，要求"提取内容" (3) 用户说"把这个网页转成 markdown"且链接是 mp.weixin.qq.com **NOT for**： - 非微信公众号内容（用 web_fetch 或其他方式） - 需要登录才能访问的内容 - 视频号内容（不同格式）
-
-### `imessage`
-
-_communications/imessage/_
-
-Send and receive iMessages/SMS via the imsg CLI on macOS.
 
 ### `email`
 
@@ -312,12 +282,6 @@ _creative-design/touchdesigner-mcp/_
 
 Control a running TouchDesigner instance via twozero MCP — create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 native tools.
 
-### `excalidraw`
-
-_creative-design/excalidraw/_
-
-Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).
-
 ### `claude-design`
 
 _creative-design/claude-design/_
@@ -372,18 +336,6 @@ _creative-design/manim-video/_
 
 Manim CE animations: 3Blue1Brown math/algo videos.
 
-### `pixel-art`
-
-_creative-design/pixel-art/_
-
-Pixel art w/ era palettes (NES, Game Boy, PICO-8).
-
-### `pretext`
-
-_creative-design/pretext/_
-
-Use when building creative browser demos with @chenglou/pretext — DOM-free text layout for ASCII art, typographic flow around obstacles, text-as-geometry games, kinetic typography, and text-powered generative art. Produces single-file HTML demos by default.
-
 ### `frontend-design`
 
 _creative-design/frontend-design/_
@@ -396,12 +348,6 @@ _creative-design/baoyu-article-illustrator/_
 
 Article illustrations: type × style × palette consistency.
 
-### `gif-search`
-
-_creative-design/gif-search/_
-
-Search/download GIFs from Tenor via curl + jq.
-
 ### `p5js`
 
 _creative-design/p5js/_
@@ -413,12 +359,6 @@ p5.js sketches: gen art, shaders, interactive, 3D.
 _creative-design/architecture-diagram/_
 
 Dark-themed SVG architecture/cloud/infra diagrams as HTML.
-
-### `brand-guidelines`
-
-_creative-design/brand-guidelines/_
-
-Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
 
 ### `sketch`
 
@@ -458,12 +398,6 @@ _documents/mineru-pdf/_
 
 Convert documents (PDF, DOCX, PPTX, images, HTML) to Markdown using the MinerU cloud API. Produces markdown text with extracted figures. Use when the user wants to parse, convert, or extract content from PDF papers or other supported document formats.
 
-### `pdf-vision-analysis`
-
-_documents/pdf-vision-analysis/_
-
-当用户要求分析 PDF 文件但 Hermes 的 vision_analyze 工具不工作时，通过 delegate_task 调用 OpenClaw 子 agent 来完成 PDF 解读。适用于发票、扫描件、图片型 PDF 等需要视觉分析的场景。
-
 ### `xlsx`
 
 _documents/xlsx/_
@@ -475,18 +409,6 @@ Use this skill any time a spreadsheet file is the primary input or output. This 
 _documents/pdf/_
 
 Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.
-
-### `internal-comms`
-
-_documents/internal-comms/_
-
-A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
-
-### `powerpoint`
-
-_documents/powerpoint/_
-
-Create, read, edit .pptx decks, slides, notes, templates.
 
 ### `pptx`
 
