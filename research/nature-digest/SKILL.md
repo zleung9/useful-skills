@@ -106,7 +106,7 @@ ones are never re-evaluated), with `firstSeen = $DATE`, the paper's `title`, and
 
 ### 7. Email the digest
 
-Recipient is fixed: `zleung9@163.com`. Sending uses the **local email
+Recipient is fixed: `zleung9@outlook.com`. Sending uses the **local email
 skill** (msmtp, account `163`, sender `zleung9@163.com`) — already configured
 at `~/.config/msmtp/config`. The script `send_email.mjs` auto-detects msmtp and
 converts the Markdown digest to HTML.
@@ -115,7 +115,7 @@ converts the Markdown digest to HTML.
   `No new relevant papers; email skipped.`
 - If relevant papers exist:
   ```bash
-  node scripts/send_email.mjs --subject "Nature 智能体 & AI for Science 日报 — $DATE" --html-file data/digests/$DATE.md --to zleung9@163.com
+  node scripts/send_email.mjs --subject "Nature 智能体 & AI for Science 日报 — $DATE" --html-file data/digests/$DATE.md --to zleung9@outlook.com
   ```
   The script sends via msmtp (`-a 163`) if available; falls back to Resend if
   `RESEND_API_KEY` is set; otherwise it **dry-runs** (prints body, exits 0).
@@ -134,7 +134,7 @@ Done: <N> new relevant, <M> total new candidates, <K> DOIs in store. Digest: dat
 - Never block on missing email config — dry-run is success.
 - Email is sent via the **local email skill** (msmtp, account `163`). See
   `/Users/zliang/.pi/agent/skills/email/SKILL.md` for details. Recipient:
-  `zleung9@163.com`.
+  `zleung9@outlook.com`.
 - Scheduled daily by the 03:00 cron dispatcher (`~/.local/cron/run-0300.sh`):
   `run_job nature-digest pi -p "/skill:nature-digest"`.
 - Summaries are always in **中文**; keep paper titles in the original English.

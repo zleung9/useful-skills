@@ -163,7 +163,7 @@ if (msmtpAvailable()) {
     `From: ${from}\r\n` +
     `To: ${recipients.join(", ")}\r\n` +
     `Subject: ${subject}\r\n` +
-    `X-Source: pi-nature-digest\r\n` +
+    `X-Source: pi-x-digest\r\n` +
     `MIME-Version: 1.0\r\n` +
     `Content-Type: text/html; charset=UTF-8\r\n` +
     `\r\n` +

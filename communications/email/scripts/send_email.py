@@ -35,6 +35,8 @@ def main():
     ap.add_argument("--body-file", help="read body from this file")
     ap.add_argument("--text", action="store_true", help="plain-text body")
     ap.add_argument("--attach", action="append", help="file to attach (repeatable)")
+    ap.add_argument("--header", action="append",
+                    help="extra MIME header 'Name: value' (repeatable, e.g. 'X-Source: pi-email-assistant')")
     ap.add_argument("--dry-run", action="store_true",
                     help="print the rendered message instead of sending")
     args = ap.parse_args()
@@ -55,7 +57,7 @@ def main():
     msg = build_message(
         from_addr=from_addr, to=args.to, cc=args.cc, bcc=args.bcc,
         subject=args.subject, body=body, html=not args.text,
-        attachments=args.attach, bcc_header=False,
+        attachments=args.attach, bcc_header=False, extra_headers=args.header,
     )
 
     if args.dry_run:

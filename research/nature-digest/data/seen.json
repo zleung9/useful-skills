@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-02",
+  "lastRun": "2026-09-06",
   "dois": {
     "10.1038/d41586-026-02681-4": {
       "firstSeen": "2026-08-27",
@@ -949,6 +949,456 @@
     "10.1038/s41467-026-77348-9": {
       "firstSeen": "2026-09-02",
       "title": "CRACD loss drives hypoxia-induced immune escape in gastric cancer",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02739-3": {
+      "firstSeen": "2026-09-04",
+      "title": "Body parts used for ancient Egyptian artworks traced to surprising source",
+      "relevant": false
+    },
+    "10.1038/s41586-026-11091-5": {
+      "firstSeen": "2026-09-04",
+      "title": "Ketone homologation via palladium-catalysed decarboxylative rearrangement",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02765-1": {
+      "firstSeen": "2026-09-04",
+      "title": "Immune therapy engineered inside the body eases multiple sclerosis",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02744-6": {
+      "firstSeen": "2026-09-04",
+      "title": "Magic-mushroom compound blocks a severe side effect of chemotherapy, in mice",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02650-x": {
+      "firstSeen": "2026-09-04",
+      "title": "Buried underpants and a new definition of kissing win 2026 Ig Nobel prizes",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02517-1": {
+      "firstSeen": "2026-09-04",
+      "title": "Nations expanding their research programmes impose sweeping penalties for malpractice",
+      "relevant": false
+    },
+    "10.1038/s41586-026-11104-3": {
+      "firstSeen": "2026-09-04",
+      "title": "Author Correction: Endocannabinoids facilitate reward engagement through retrograde gain control",
+      "relevant": false
+    },
+    "10.1038/s41586-026-11080-8": {
+      "firstSeen": "2026-09-04",
+      "title": "Author Correction: Signalling thresholds and negative B-cell selection in acute lymphoblastic leukaemia",
+      "relevant": false
+    },
+    "10.1038/s41586-026-11027-z": {
+      "firstSeen": "2026-09-04",
+      "title": "Retraction Note: Warming accelerates global drought severity",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02762-4": {
+      "firstSeen": "2026-09-04",
+      "title": "Audio long read: Could mending damaged DNA prolong life?",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10982-x": {
+      "firstSeen": "2026-09-04",
+      "title": "Functional chimeric mRNAs encode proteins in mammalian immunity",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10987-6": {
+      "firstSeen": "2026-09-04",
+      "title": "3D epigenome of glial cell types in developing human cortex",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10690-6": {
+      "firstSeen": "2026-09-04",
+      "title": "Connectome analysis of a cerebellum-like circuit for sensory prediction",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10898-6": {
+      "firstSeen": "2026-09-04",
+      "title": "Designing physics experiments with artificial intelligence",
+      "relevant": true
+    },
+    "10.1038/s41586-026-10952-3": {
+      "firstSeen": "2026-09-04",
+      "title": "Creating bottom-up RNA transfer vehicles from synthetic protein assemblies",
+      "relevant": true
+    },
+    "10.1038/s41586-026-10940-7": {
+      "firstSeen": "2026-09-04",
+      "title": "Late-life semaglutide treatment slows ageing and extends lifespan in female mice",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10992-9": {
+      "firstSeen": "2026-09-04",
+      "title": "Robust inference and correlates from genetic associations with personality",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10818-8": {
+      "firstSeen": "2026-09-04",
+      "title": "Exploring baryon semileptonic decays through polarization and entanglement",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10983-w": {
+      "firstSeen": "2026-09-04",
+      "title": "Atmospheric CH 4 plateau sustained by NO x emission rise and southward shift",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10969-8": {
+      "firstSeen": "2026-09-04",
+      "title": "Pines grow faster and are more drought resilient in the Southern Hemisphere",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10962-1": {
+      "firstSeen": "2026-09-04",
+      "title": "Rewiring the ribosome to translate proteins encoded in its own RNA",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10529-0": {
+      "firstSeen": "2026-09-04",
+      "title": "Molecular mechanisms and pathogenesis of MASH",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10950-5": {
+      "firstSeen": "2026-09-04",
+      "title": "Explainable deep learning improves human mental models of self-driving cars",
+      "relevant": true
+    },
+    "10.1038/s41586-026-10672-8": {
+      "firstSeen": "2026-09-04",
+      "title": "Current therapeutic landscape and future treatment perspectives of MASH",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10908-7": {
+      "firstSeen": "2026-09-04",
+      "title": "The nutritional value of invertebrate aquatic foods",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10981-y": {
+      "firstSeen": "2026-09-04",
+      "title": "Intracellular complement factor H protects neurons during CNS inflammation",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10986-7": {
+      "firstSeen": "2026-09-04",
+      "title": "Probing far-from-equilibrium dynamics of electrical double layers",
+      "relevant": false
+    },
+    "10.1038/s41586-026-10937-2": {
+      "firstSeen": "2026-09-04",
+      "title": "Structure and operating principles of a monkeypox virus replisome",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02746-4": {
+      "firstSeen": "2026-09-04",
+      "title": "Satellite images before Nepal disaster showed warning signs",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02694-z": {
+      "firstSeen": "2026-09-04",
+      "title": "Blood cells replace the immune cells of the ageing human brain",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02468-7": {
+      "firstSeen": "2026-09-04",
+      "title": "Weight-loss drug slows ageing in female mice",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02541-1": {
+      "firstSeen": "2026-09-04",
+      "title": "Aquatic invertebrates contribute substantially to global nutrient supplies",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02753-5": {
+      "firstSeen": "2026-09-04",
+      "title": "UN finally admits global warming will shoot past 1.5 ºC climate limit",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02414-7": {
+      "firstSeen": "2026-09-04",
+      "title": "City of slop",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02683-2": {
+      "firstSeen": "2026-09-04",
+      "title": "When do infections lead to long COVID? Scientists close in on triggers and treatments for post-viral syndromes",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02695-y": {
+      "firstSeen": "2026-09-04",
+      "title": "Peruvian ice has preserved a global methane record",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02761-5": {
+      "firstSeen": "2026-09-04",
+      "title": "Anxious or outgoing? Huge study links ‘Big Five’ personality traits to genetic variants",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02757-1": {
+      "firstSeen": "2026-09-04",
+      "title": "Can GLP-1 drugs slow ageing? Mouse study shows promise",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02677-0": {
+      "firstSeen": "2026-09-04",
+      "title": "The death of Jason Arday must prompt deep reflection",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02745-5": {
+      "firstSeen": "2026-09-04",
+      "title": "Landmark pancreatic cancer drug shows potential against lung cancer too",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02123-1": {
+      "firstSeen": "2026-09-04",
+      "title": "Antimatter ‘tag’ used to detect elusive particle decay",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02764-2": {
+      "firstSeen": "2026-09-04",
+      "title": "NASA’s Roman telescope holds promise far beyond mapping the invisible Universe",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02467-8": {
+      "firstSeen": "2026-09-04",
+      "title": "Self-driving cars make mistakes, and now users can see why",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02486-5": {
+      "firstSeen": "2026-09-04",
+      "title": "Biomarkers that predict improved outcomes after perioperative immune-based therapy for lung cancer",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02597-z": {
+      "firstSeen": "2026-09-04",
+      "title": "Say hello to the next generation of lobsters — August’s best science images",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02781-1": {
+      "firstSeen": "2026-09-04",
+      "title": "Daily briefing: A thrilling hint of dark-matter discovery",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02756-2": {
+      "firstSeen": "2026-09-04",
+      "title": "Daily briefing: The next generation of lobsters",
+      "relevant": false
+    },
+    "10.1038/s42256-026-01289-7": {
+      "firstSeen": "2026-09-04",
+      "title": "Quantum neural operators with implicit quadratic frame and expressivity advantages",
+      "relevant": true
+    },
+    "10.1038/s42256-026-01295-9": {
+      "firstSeen": "2026-09-04",
+      "title": "NucleicBERT interprets RNA sequence space through self-supervised language modelling",
+      "relevant": true
+    },
+    "10.1038/s41467-026-77407-1": {
+      "firstSeen": "2026-09-04",
+      "title": "Unified down-stream analysis of crosslinking mass spectrometry results with pyXLMS",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77523-y": {
+      "firstSeen": "2026-09-04",
+      "title": "Ultrahigh-sensitivity adaptive solar-blind organic neuromorphic sensors for robust corona discharge monitoring",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77564-3": {
+      "firstSeen": "2026-09-04",
+      "title": "Overcoming polarization-breakdown trade-off via hydrogen bonding-modulated molecular stacking in high-temperature high-energy-density flexible dielectric",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77272-y": {
+      "firstSeen": "2026-09-04",
+      "title": "Drought development characteristics modulate global dry–wet abrupt alternation through distinct land–atmosphere feedbacks",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77350-1": {
+      "firstSeen": "2026-09-04",
+      "title": "Perceived humanness and empathy are dissociated in relationship advice generated by a large language model",
+      "relevant": true
+    },
+    "10.1038/s41467-026-77492-2": {
+      "firstSeen": "2026-09-04",
+      "title": "Ten critical questions for scaling up floating developments",
+      "relevant": false
+    },
+    "10.1038/s41467-026-76863-z": {
+      "firstSeen": "2026-09-04",
+      "title": "Author Correction: A multicellular self-organized probiotic platform for oral delivery enhances intestinal colonization",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77496-y": {
+      "firstSeen": "2026-09-04",
+      "title": "Author Correction: Machine learning model-guided selective use of temporary diverting ileostomy in rectal cancer surgery: a randomized controlled trial",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03227-2": {
+      "firstSeen": "2026-09-04",
+      "title": "Towards high-quality large-scale T cell receptor antigen specificity data: challenges and promises",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03228-1": {
+      "firstSeen": "2026-09-04",
+      "title": "Human stewardship in the age of organoids",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02800-1": {
+      "firstSeen": "2026-09-05",
+      "title": "Briefing Chat: How 1,000 pairs of buried underpants helped measure soil health",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02741-9": {
+      "firstSeen": "2026-09-05",
+      "title": "Super-precise optical clocks in four nations tick in harmony",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02643-w": {
+      "firstSeen": "2026-09-05",
+      "title": "Tropical cyclones could be predicted with an extra day’s warning, thanks to an AI model",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02801-0": {
+      "firstSeen": "2026-09-05",
+      "title": "Ada Yonath obituary: Crystallographer who overcame ‘impossible’ challenge of mapping the ribosome",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02758-0": {
+      "firstSeen": "2026-09-05",
+      "title": "Bunsen burners’ reputation for sterilizing workplaces flames out",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02740-w": {
+      "firstSeen": "2026-09-05",
+      "title": "CRISPR therapy cuts cholesterol for at least 12 months",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77482-4": {
+      "firstSeen": "2026-09-05",
+      "title": "Cobalt-catalyzed Markovnikov-selective hydrophosphonylation of unactivated alkenes enabled by phthalimidyl phosphite reagents",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77445-9": {
+      "firstSeen": "2026-09-05",
+      "title": "Global lake tipping vulnerability under sustained agricultural exposure",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77400-8": {
+      "firstSeen": "2026-09-05",
+      "title": "Hippocampal mechanisms underlying the resolution of competition in memory and perception",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77488-y": {
+      "firstSeen": "2026-09-05",
+      "title": "Author Correction: Unequal exchange of labour in the world economy",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77253-1": {
+      "firstSeen": "2026-09-05",
+      "title": "In-situ chlorine radical generation from captured Cl - for redox synergy in electrocatalytic hydrodehalogenation",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77468-2": {
+      "firstSeen": "2026-09-05",
+      "title": "Visible light-mediated Alder-ene reaction of bicyclobutanes with cyclohexynes to access skipped dienes and skeletal remodeling to tetralines",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77543-8": {
+      "firstSeen": "2026-09-05",
+      "title": "Twinned-magnesium metal negative electrodes enable reversible magnesium electrodeposition",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77364-9": {
+      "firstSeen": "2026-09-05",
+      "title": "Toward efficient green methanol from biomass and renewable power",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03231-6": {
+      "firstSeen": "2026-09-05",
+      "title": "A viral ORFeome",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03232-5": {
+      "firstSeen": "2026-09-05",
+      "title": "Protein nanocages empower RNA profiling",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03230-7": {
+      "firstSeen": "2026-09-05",
+      "title": "Precise DNA base editing using ContactSeek",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03233-4": {
+      "firstSeen": "2026-09-05",
+      "title": "Designer binding for multiplexed molecular imaging",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03203-w": {
+      "firstSeen": "2026-09-05",
+      "title": "Consequences of missing data",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03234-3": {
+      "firstSeen": "2026-09-05",
+      "title": "Embedding AI in biology — part 2",
+      "relevant": true
+    },
+    "10.1038/s41592-026-03209-4": {
+      "firstSeen": "2026-09-05",
+      "title": "Revealing distinctive traits of individual proteins",
+      "relevant": false
+    },
+    "10.1038/s41592-026-03207-6": {
+      "firstSeen": "2026-09-05",
+      "title": "The graphical abstract",
+      "relevant": false
+    },
+    "10.1038/d41586-026-02799-5": {
+      "firstSeen": "2026-09-06",
+      "title": "Revealed: inside the US military's plan to tap huge sums from the NIH",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77570-5": {
+      "firstSeen": "2026-09-06",
+      "title": "Optical excitation of nonreciprocal antiferromagnetic magnons at sub-terahertz frequencies",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77413-3": {
+      "firstSeen": "2026-09-06",
+      "title": "Unconditional and exponentially large violation of classicality",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77312-7": {
+      "firstSeen": "2026-09-06",
+      "title": "Steric control of signaling bias in the immunometabolic receptor GPR84",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77379-2": {
+      "firstSeen": "2026-09-06",
+      "title": "OXR1 is a dual redox–mitochondrial checkpoint governing osteoclast differentiation and bone loss in an osteoporosis mouse model",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77247-z": {
+      "firstSeen": "2026-09-06",
+      "title": "Selectively intraparticle oxygen dissociation and metalloid mineralization for long-term groundwater remediation",
+      "relevant": false
+    },
+    "10.1038/s41467-026-77389-0": {
+      "firstSeen": "2026-09-06",
+      "title": "Whole genome sequencing of 1427 Mexican individuals from the oriGen cohort",
+      "relevant": false
+    },
+    "10.1038/s41467-026-76391-w": {
+      "firstSeen": "2026-09-06",
+      "title": "Thermal conductivity predictions with foundation atomistic models",
+      "relevant": true
+    },
+    "10.1038/s41467-026-77433-z": {
+      "firstSeen": "2026-09-06",
+      "title": "Neoadjuvant PD1 plus CTLA-4 immune checkpoint blockade in surgically resectable recurrent glioblastoma: a randomized surgical window-of-opportunity trial",
       "relevant": false
     }
   }

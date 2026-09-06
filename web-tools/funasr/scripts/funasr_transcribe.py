@@ -17,12 +17,18 @@ FunASR 音频转录 & 分析工具
   multi        : 多语言 + 情绪 (SenseVoiceSmall)
   speaker      : 中文 + 说话人分离
   timestamp    : 中文 + 时间戳
-  whisper      : Whisper-large-v3 兼容模式
 """
 
 import sys
 import json
-from funasr import AutoModel
+
+try:
+    from funasr import AutoModel
+except ImportError:
+    print("Error: funasr not installed (本地离线模式需要)", file=sys.stderr)
+    print("Run: pip3 install funasr --break-system-packages", file=sys.stderr)
+    print("(首次运行会自动从 ModelScope 下载模型)", file=sys.stderr)
+    sys.exit(1)
 
 
 def mode_zh(audio_path: str, hotword_path: str = None) -> list:

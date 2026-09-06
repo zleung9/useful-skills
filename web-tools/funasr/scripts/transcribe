@@ -5,16 +5,24 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-VENV_DIR="${VIRTUAL_ENV:-${HOME}/.agents/skills/funasr/venv}"
+SKILL_DIR="$(dirname "$SCRIPT_DIR")"
 
-# Use existing venv if activated, otherwise check for one
-if [[ -z "$VIRTUAL_ENV" ]]; then
-    if [[ -d "$VENV_DIR" ]]; then
-        source "$VENV_DIR/bin/activate"
-    elif [[ -d "${HOME}/.agents/skills/funasr/.venv" ]]; then
-        source "${HOME}/.agents/skills/funasr/.venv/bin/activate"
-    fi
+# Resolve the Python interpreter: current venv > skill-local venv > legacy paths > system python3
+if [[ -n "${VIRTUAL_ENV:-}" ]]; then
+    PYTHON="python3"
+else
+    for candidate in \
+        "$SKILL_DIR/venv/bin/python3" \
+        "$SKILL_DIR/.venv/bin/python3" \
+        "${HOME}/.agents/skills/funasr/venv/bin/python3" \
+        "${HOME}/.agents/skills/funasr/.venv/bin/python3"; do
+        if [[ -x "$candidate" ]]; then
+            PYTHON="$candidate"
+            break
+        fi
+    done
+    : "${PYTHON:=python3}"
 fi
 
 # Run the transcriber
-exec python3 "${SCRIPT_DIR}/transcribe.py" "$@"
+exec "$PYTHON" "${SCRIPT_DIR}/transcribe.py" "$@"

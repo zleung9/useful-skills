@@ -403,8 +403,6 @@ def main():
                         help="输出目录 (批量时)")
     parser.add_argument("--verbose", action="store_true",
                         help="显示详细 API 信息")
-    parser.add_argument("--wait", type=int, default=3,
-                        help="轮询间隔秒数 (默认: 3)")
 
     args = parser.parse_args()
 

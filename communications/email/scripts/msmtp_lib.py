@@ -86,12 +86,25 @@ def get_imap_host(account="163"):
 
 
 def get_imap(account="163"):
-    """Connect + log in to IMAP for an account. Returns ``(conn, user)``."""
+    """Connect + log in to IMAP for an account. Returns ``(conn, user)``.
+
+    After login, identifies the client via the IMAP ``ID`` command (RFC 2971).
+    NetEase (163/126) requires this — otherwise ``SELECT`` is rejected with
+    ``Unsafe Login``. Servers without ID support (e.g. xmu) simply answer
+    BAD/NO, which is ignored.
+    """
     if imaplib is None:  # pragma: no cover
         raise RuntimeError("imaplib unavailable in this environment")
     user, password = get_account(account)
     conn = imaplib.IMAP4_SSL(get_imap_host(account), 993)
     conn.login(user, password)
+    try:
+        tag = conn._new_tag()
+        conn.send(tag + b' ID ("name" "pi-mail" "version" "1.0" '
+                    b'"vendor" "pi-agent" "contact" "' + user.encode() + b'")\r\n')
+        conn._get_response()
+    except Exception:
+        pass  # non-NetEase servers: ID unsupported, continue without it
     return conn, user
 
 
@@ -104,7 +117,7 @@ def _as_list(v):
 
 
 def build_message(from_addr, to, subject, body, cc=None, bcc=None,
-                  html=True, attachments=None, bcc_header=False):
+                  html=True, attachments=None, bcc_header=False, extra_headers=None):
     """Build a MIME message ready to send or append to Drafts.
 
     ``to``/``cc``/``bcc`` may be a string or a list of strings. ``body`` is the
@@ -121,6 +134,10 @@ def build_message(from_addr, to, subject, body, cc=None, bcc=None,
     if bcc and bcc_header:
         msg["Bcc"] = ", ".join(_as_list(bcc))
     msg["Subject"] = subject
+    for h in _as_list(extra_headers):
+        name, _, value = h.partition(":")
+        if name.strip():
+            msg[name.strip()] = value.strip()
 
     msg.attach(MIMEText(body, "html" if html else "plain", "utf-8"))
 
